@@ -11,13 +11,13 @@
 <div class="form">
   <form action="https://formspree.io/f/xknyrlbr" method="post">
     <label for="name">Imię</label>
-    <input type="text" name="name" required>
+    <input type="text" name="name" id="name" required>
 
     <label for="surname">Nazwisko</label>
-    <input type="text" name="surname" required>
+    <input type="text" name="surname" id="surname" required>
 
     <label for="email">E-mail</label>
-    <input type="email" name="email" required>
+    <input type="email" name="email" id="email" required>
 
     <select name="city">
       <option value="warszawa" selected>Warszawa</option>
@@ -33,7 +33,7 @@
     </div>
 
     <label id="msg" for="message">Komunikat</label>
-    <textarea name="message"></textarea>
+    <textarea name="message" id="message"></textarea>
 
     <input type="submit">
   </form>
