@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+.form {
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align: middle;
+}
+input[type=text],select, input[type=email] {
+  display: inline-block;
+  width:100%;
+  background-color: aliceblue;
+  border:solid 1px gray;
+  border-radius: 10px;
+}
+.sex {
+  display: inline-block;
+}
+textarea {
+  width:100%;
+  background-color: aliceblue;
+  border:solid 1px gray;
+  border-radius: 10px;
+}
+label, input, textarea, select {
+ margin:10px 0;
+ padding:10px;
+}
+input[type=submit] {
+  width:100%;
+  border:none;
+  background-color: #16924e;
+  cursor:pointer;
+  color:white;
+  padding:15px 20px;
+  transition:border-radius 1s;
+}
+input[type=submit]:hover {
+  background-color: #116e3b;
+  border-radius:10px;
+}
